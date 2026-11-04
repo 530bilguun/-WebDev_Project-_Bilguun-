@@ -10,13 +10,11 @@ p{
     text-transform: lowercase;
 
 }
-html{
-    background-image: 
-    url(https://images5.alphacoders.com/313/thumb-1920-313834.jpg);
-      font-family: "Edu QLD Hand", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+html {
+    background-image: url(images/pic2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 nav{
     color: red;
@@ -25,6 +23,28 @@ figcaption{
     color: yellow;
     text-transform: capitalize;
 }
-a:link{
+a {
     color: yellow;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a {
+    margin-right: 15px;
+}
+.Lorem {
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 5px solid white;
+    display: block;
+    max-width: 100%;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px;
 }
