@@ -41,10 +41,9 @@ nav a {
     margin: 20px auto;
     border: 5px solid white;
     display: block;
-    max-width: 100%;
 }
 .card {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: grey;
     padding: 20px;
     margin: 20px;
 }
