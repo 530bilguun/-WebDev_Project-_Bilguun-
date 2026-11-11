@@ -22,7 +22,7 @@ figcaption{
     color: yellow;
     text-transform: capitalize;
 }
-a, h3, li {
+a, h3 {
     color: yellow;
 }
 a:hover {
