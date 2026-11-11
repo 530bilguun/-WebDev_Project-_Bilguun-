@@ -5,9 +5,8 @@ h1, h2 {
 }
 
 p{
-    text-align: center;
+    text-align: left;
     color: white;
-    text-transform: lowercase;
 
 }
 html {
@@ -23,7 +22,7 @@ figcaption{
     color: yellow;
     text-transform: capitalize;
 }
-a {
+a, h3, li {
     color: yellow;
 }
 a:hover {
@@ -43,7 +42,11 @@ nav a {
     display: block;
 }
 .card {
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     margin: 20px;
+}
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.125rem;
 }
